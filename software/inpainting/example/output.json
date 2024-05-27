@@ -1,0 +1,514 @@
+{
+    "image_id": 21389,
+    "image_name": "n02090721_6873.JPEG",
+    "objects": [
+        {
+            "object_id": 1,
+            "class_id": 13,
+            "class_name": "dog",
+            "object_bbox": {
+                "x": 79,
+                "y": 122,
+                "width": 223,
+                "height": 195
+            }
+        },
+        {
+            "object_id": 2,
+            "class_id": 1,
+            "class_name": "person",
+            "object_bbox": {
+                "x": 348,
+                "y": 35,
+                "width": 82,
+                "height": 221
+            }
+        },
+        {
+            "object_id": 3,
+            "class_id": 1,
+            "class_name": "person",
+            "object_bbox": {
+                "x": 54,
+                "y": 0,
+                "width": 108,
+                "height": 292
+            }
+        },
+        {
+            "object_id": 4,
+            "class_id": 56,
+            "class_name": "sky",
+            "object_bbox": {
+                "x": 212,
+                "y": 0,
+                "width": 287,
+                "height": 58
+            }
+        },
+        {
+            "object_id": 5,
+            "class_id": 13,
+            "class_name": "dog",
+            "object_bbox": {
+                "x": 254,
+                "y": 122,
+                "width": 241,
+                "height": 202
+            }
+        },
+        {
+            "object_id": 6,
+            "class_id": 54,
+            "class_name": "tree",
+            "object_bbox": {
+                "x": 0,
+                "y": 0,
+                "width": 210,
+                "height": 214
+            }
+        },
+        {
+            "object_id": 7,
+            "class_id": 1,
+            "class_name": "person",
+            "object_bbox": {
+                "x": 265,
+                "y": 17,
+                "width": 103,
+                "height": 294
+            }
+        },
+        {
+            "object_id": 8,
+            "class_id": 62,
+            "class_name": "building",
+            "object_bbox": {
+                "x": 206,
+                "y": 8,
+                "width": 46,
+                "height": 54
+            }
+        },
+        {
+            "object_id": 9,
+            "class_id": 59,
+            "class_name": "floor",
+            "object_bbox": {
+                "x": 0,
+                "y": 194,
+                "width": 499,
+                "height": 138
+            }
+        },
+        {
+            "object_id": 10,
+            "class_id": 1,
+            "class_name": "person",
+            "object_bbox": {
+                "x": 121,
+                "y": 19,
+                "width": 138,
+                "height": 284
+            }
+        }
+    ],
+    "predicates": [
+        {
+            "attribute_name": "standing",
+            "attribute_id": 112016,
+            "subject_id": 1,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "solid",
+            "attribute_id": 114015,
+            "subject_id": 1,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "fluffy",
+            "attribute_id": 114023,
+            "subject_id": 1,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "Side-view",
+            "attribute_id": 120003,
+            "subject_id": 1,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "standing",
+            "attribute_id": 112016,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_shoes",
+            "attribute_id": 113009,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_jeans",
+            "attribute_id": 113011,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "Front-view",
+            "attribute_id": 120001,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "male",
+            "attribute_id": 111013,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "standing",
+            "attribute_id": 112016,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_a_cap",
+            "attribute_id": 113003,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_a_T-shirt",
+            "attribute_id": 113005,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_glasses",
+            "attribute_id": 113008,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_shoes",
+            "attribute_id": 113009,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_jeans",
+            "attribute_id": 113011,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "Front-view",
+            "attribute_id": 120001,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "bright",
+            "attribute_id": 112070,
+            "subject_id": 4,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "high",
+            "attribute_id": 113063,
+            "subject_id": 4,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "solid",
+            "attribute_id": 114015,
+            "subject_id": 4,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "Unknown",
+            "attribute_id": 120006,
+            "subject_id": 4,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "standing",
+            "attribute_id": 112016,
+            "subject_id": 5,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "solid",
+            "attribute_id": 114015,
+            "subject_id": 5,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "fluffy",
+            "attribute_id": 114023,
+            "subject_id": 5,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "Side-view",
+            "attribute_id": 120003,
+            "subject_id": 5,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "standing",
+            "attribute_id": 112016,
+            "subject_id": 6,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "bare",
+            "attribute_id": 112071,
+            "subject_id": 6,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wooden",
+            "attribute_id": 114003,
+            "subject_id": 6,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "solid",
+            "attribute_id": 114015,
+            "subject_id": 6,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "Unknown",
+            "attribute_id": 120006,
+            "subject_id": 6,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "female",
+            "attribute_id": 111008,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "smiling",
+            "attribute_id": 112015,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "standing",
+            "attribute_id": 112016,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_shoes",
+            "attribute_id": 113009,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_jeans",
+            "attribute_id": 113011,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "Front-view",
+            "attribute_id": 120001,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "standing",
+            "attribute_id": 112016,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "with_a_roof",
+            "attribute_id": 113058,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "concrete",
+            "attribute_id": 114011,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "solid",
+            "attribute_id": 114015,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "Unknown",
+            "attribute_id": 120006,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "grassed",
+            "attribute_id": 113052,
+            "subject_id": 9,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wide",
+            "attribute_id": 113067,
+            "subject_id": 9,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "concrete",
+            "attribute_id": 114011,
+            "subject_id": 9,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "solid",
+            "attribute_id": 114015,
+            "subject_id": 9,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "Unknown",
+            "attribute_id": 120006,
+            "subject_id": 9,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "female",
+            "attribute_id": 111008,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "smiling",
+            "attribute_id": 112015,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "standing",
+            "attribute_id": 112016,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_shoes",
+            "attribute_id": 113009,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_jeans",
+            "attribute_id": 113011,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "wearing_sunglasses",
+            "attribute_id": 113017,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "attribute_name": "Front-view",
+            "attribute_id": 120001,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "touch",
+            "predicate_id": 210095,
+            "subject_id": 10,
+            "object_id": 1
+        },
+        {
+            "predicate_name": "rear",
+            "predicate_id": 220002,
+            "subject_id": 10,
+            "object_id": 1
+        },
+        {
+            "predicate_name": "align",
+            "predicate_id": 210001,
+            "subject_id": 10,
+            "object_id": 3
+        },
+        {
+            "predicate_name": "touch__contact",
+            "predicate_id": 210096,
+            "subject_id": 10,
+            "object_id": 3
+        },
+        {
+            "predicate_name": "right",
+            "predicate_id": 220004,
+            "subject_id": 10,
+            "object_id": 3
+        },
+        {
+            "predicate_name": "lower",
+            "predicate_id": 220006,
+            "subject_id": 10,
+            "object_id": 4
+        },
+        {
+            "predicate_name": "rear",
+            "predicate_id": 220002,
+            "subject_id": 10,
+            "object_id": 5
+        },
+        {
+            "predicate_name": "front",
+            "predicate_id": 220001,
+            "subject_id": 10,
+            "object_id": 6
+        },
+        {
+            "predicate_name": "align",
+            "predicate_id": 210001,
+            "subject_id": 10,
+            "object_id": 7
+        },
+        {
+            "predicate_name": "left",
+            "predicate_id": 220003,
+            "subject_id": 10,
+            "object_id": 7
+        },
+        {
+            "predicate_name": "front",
+            "predicate_id": 220001,
+            "subject_id": 10,
+            "object_id": 8
+        },
+        {
+            "predicate_name": "stand",
+            "predicate_id": 210086,
+            "subject_id": 10,
+            "object_id": 9
+        },
+        {
+            "predicate_name": "upper",
+            "predicate_id": 220005,
+            "subject_id": 10,
+            "object_id": 9
+        },
+        {
+            "predicate_name": "left",
+            "predicate_id": 220003,
+            "subject_id": 10,
+            "object_id": 2
+        }
+    ]
+}

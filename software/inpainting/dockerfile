@@ -1,0 +1,52 @@
+# docker build -t ssl_inpainting/part3_kaist:dummy .
+
+
+# docker run --gpus all --rm -d -it -p 10032:5000 --name part3_kaist ssl_inpainting/part3_kaist:dummy
+# or if you use nvidia-docker
+# nvidia-docker run --rm -d -it -p 10032:5000 --name part3_kaist ssl_inpainting/part3_kaist:dummy
+
+# FROM tensorflow/tensorflow:2.6.0-gpu
+FROM nvidia/cuda:12.0.1-cudnn8-devel-ubuntu20.04
+LABEL maintainer "KETI AIRC Han-Mu Park <hanmu@keti.re.kr>"
+
+ENV DEBIAN_FRONTEND noninteractive
+
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A4B469963BF863CC
+RUN apt-get update --fix-missing && apt-get install -y wget bzip2 ca-certificates \
+    libglib2.0-0 libxext6 libsm6 libxrender1 \
+    git mercurial subversion locales rsync \
+    libc6 libstdc++6 python-minimal tar curl net-tools apt-utils
+
+RUN locale-gen en_US.UTF-8 && update-locale
+
+ENV LC_ALL=en_US.UTF-8
+ENV LANGUAGE=en_US:en
+
+RUN pip install flask numpy opencv-python-headless
+
+ADD app /root/app
+
+# ADD model files
+RUN apt update && apt install python3-pip -y
+RUN apt install git -y
+RUN pip3 install numpy==1.23.5
+RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+RUN pip3 install xformers lightning transformers
+RUN pip3 install --pre timm
+RUN pip3 install easydict fastapi wandb plum-dispatch scikit-learn matplotlib
+RUN pip3 install datasets
+RUN pip3 install git+https://github.com/pyg-team/pytorch_geometric.git
+RUN pip3 install pytorch3d
+RUN pip3 install rdkit-pypi==2021.9.2.1 cython==0.29.24
+RUN apt-get update && apt-get -y install libxrender1
+RUN apt update && apt install ffmpeg libsm6 libxext6 -y
+RUN pip3 install opencv-python
+
+# you can manually copy files instead of the command below...
+
+WORKDIR /root/app
+
+CMD ["python", "-m", "flask", "run", "--host=0.0.0.0"]
+
+ENV SERVICE_PORT 5000
+EXPOSE ${SERVICE_PORT}

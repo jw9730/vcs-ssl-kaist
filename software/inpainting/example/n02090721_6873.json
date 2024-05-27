@@ -1,0 +1,532 @@
+{
+    "image_id": 2905,
+    "image_name": "n02090721_6873.JPEG",
+    "objects": [
+        {
+            "object_id": 1,
+            "class_id": 13,
+            "class_name": "dog",
+            "object_bbox": {
+                "x": 79,
+                "y": 123,
+                "width": 223,
+                "height": 196
+            }
+        },
+        {
+            "object_id": 2,
+            "class_id": 1,
+            "class_name": "person",
+            "object_bbox": {
+                "x": 342,
+                "y": 0,
+                "width": 101,
+                "height": 308
+            }
+        },
+        {
+            "object_id": 3,
+            "class_id": 1,
+            "class_name": "person",
+            "object_bbox": {
+                "x": 55,
+                "y": 0,
+                "width": 108,
+                "height": 292
+            }
+        },
+        {
+            "object_id": 4,
+            "class_id": 56,
+            "class_name": "sky",
+            "object_bbox": {
+                "x": 212,
+                "y": 0,
+                "width": 287,
+                "height": 59
+            }
+        },
+        {
+            "object_id": 5,
+            "class_id": 13,
+            "class_name": "dog",
+            "object_bbox": {
+                "x": 255,
+                "y": 122,
+                "width": 242,
+                "height": 203
+            }
+        },
+        {
+            "object_id": 6,
+            "class_id": 54,
+            "class_name": "tree",
+            "object_bbox": {
+                "x": 0,
+                "y": 0,
+                "width": 211,
+                "height": 214
+            }
+        },
+        {
+            "object_id": 7,
+            "class_id": 1,
+            "class_name": "person",
+            "object_bbox": {
+                "x": 265,
+                "y": 17,
+                "width": 103,
+                "height": 295
+            }
+        },
+        {
+            "object_id": 8,
+            "class_id": 62,
+            "class_name": "building",
+            "object_bbox": {
+                "x": 206,
+                "y": 8,
+                "width": 46,
+                "height": 55
+            }
+        },
+        {
+            "object_id": 9,
+            "class_id": 59,
+            "class_name": "floor",
+            "object_bbox": {
+                "x": 0,
+                "y": 195,
+                "width": 499,
+                "height": 139
+            }
+        },
+        {
+            "object_id": 10,
+            "class_id": 1,
+            "class_name": "person",
+            "object_bbox": {
+                "x": 121,
+                "y": 20,
+                "width": 139,
+                "height": 284
+            }
+        }
+    ],
+    "predicates": [
+        {
+            "predicate_name": "standing",
+            "predicate_id": 112016,
+            "subject_id": 1,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "Side-view",
+            "predicate_id": 120003,
+            "subject_id": 1,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "fluffy",
+            "predicate_id": 114023,
+            "subject_id": 1,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "colorful",
+            "predicate_id": 114013,
+            "subject_id": 1,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_shoes",
+            "predicate_id": 113009,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_glasses",
+            "predicate_id": 113008,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_a_shirt",
+            "predicate_id": 113012,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "smiling",
+            "predicate_id": 112015,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "standing",
+            "predicate_id": 112016,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "Front-view",
+            "predicate_id": 120001,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "male",
+            "predicate_id": 111013,
+            "subject_id": 2,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_jeans",
+            "predicate_id": 113011,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_glasses",
+            "predicate_id": 113008,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_a_cap",
+            "predicate_id": 113003,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_shoes",
+            "predicate_id": 113009,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_a_T-shirt",
+            "predicate_id": 113005,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "standing",
+            "predicate_id": 112016,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "Front-view",
+            "predicate_id": 120001,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "male",
+            "predicate_id": 111013,
+            "subject_id": 3,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "sunny",
+            "predicate_id": 112076,
+            "subject_id": 4,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "bright",
+            "predicate_id": 112070,
+            "subject_id": 4,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "Unknown",
+            "predicate_id": 120006,
+            "subject_id": 4,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "solid",
+            "predicate_id": 114015,
+            "subject_id": 4,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "standing",
+            "predicate_id": 112016,
+            "subject_id": 5,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "Side-view",
+            "predicate_id": 120003,
+            "subject_id": 5,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "fluffy",
+            "predicate_id": 114023,
+            "subject_id": 5,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "solid",
+            "predicate_id": 114015,
+            "subject_id": 5,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "bare",
+            "predicate_id": 112071,
+            "subject_id": 6,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "standing",
+            "predicate_id": 112016,
+            "subject_id": 6,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "Unknown",
+            "predicate_id": 120006,
+            "subject_id": 6,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "solid",
+            "predicate_id": 114015,
+            "subject_id": 6,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wooden",
+            "predicate_id": 114003,
+            "subject_id": 6,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_shoes",
+            "predicate_id": 113009,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_jeans",
+            "predicate_id": 113011,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "smiling",
+            "predicate_id": 112015,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "standing",
+            "predicate_id": 112016,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "fat",
+            "predicate_id": 112011,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "Front-view",
+            "predicate_id": 120001,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "female",
+            "predicate_id": 111008,
+            "subject_id": 7,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "with_a_roof",
+            "predicate_id": 113058,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "standing",
+            "predicate_id": 112016,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "high",
+            "predicate_id": 113063,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "Unknown",
+            "predicate_id": 120006,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "solid",
+            "predicate_id": 114015,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "concrete",
+            "predicate_id": 114011,
+            "subject_id": 8,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "grassed",
+            "predicate_id": 113052,
+            "subject_id": 9,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "grassy",
+            "predicate_id": 113062,
+            "subject_id": 9,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "Unknown",
+            "predicate_id": 120006,
+            "subject_id": 9,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "solid",
+            "predicate_id": 114015,
+            "subject_id": 9,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_sunglasses",
+            "predicate_id": 113017,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_shoes",
+            "predicate_id": 113009,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "wearing_jeans",
+            "predicate_id": 113011,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "smiling",
+            "predicate_id": 112015,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "standing",
+            "predicate_id": 112016,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "Front-view",
+            "predicate_id": 120001,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "female",
+            "predicate_id": 111008,
+            "subject_id": 10,
+            "object_id": -1
+        },
+        {
+            "predicate_name": "rear",
+            "predicate_id": 220002,
+            "subject_id": 10,
+            "object_id": 1
+        },
+        {
+            "predicate_name": "touch__contact",
+            "predicate_id": 210096,
+            "subject_id": 10,
+            "object_id": 1
+        },
+        {
+            "predicate_name": "touch",
+            "predicate_id": 210095,
+            "subject_id": 10,
+            "object_id": 1
+        },
+        {
+            "predicate_name": "left",
+            "predicate_id": 220003,
+            "subject_id": 10,
+            "object_id": 2
+        },
+        {
+            "predicate_name": "right",
+            "predicate_id": 220004,
+            "subject_id": 10,
+            "object_id": 3
+        },
+        {
+            "predicate_name": "touch__contact",
+            "predicate_id": 210096,
+            "subject_id": 10,
+            "object_id": 3
+        },
+        {
+            "predicate_name": "lower",
+            "predicate_id": 220006,
+            "subject_id": 10,
+            "object_id": 4
+        },
+        {
+            "predicate_name": "rear",
+            "predicate_id": 220002,
+            "subject_id": 10,
+            "object_id": 5
+        },
+        {
+            "predicate_name": "front",
+            "predicate_id": 220001,
+            "subject_id": 10,
+            "object_id": 6
+        },
+        {
+            "predicate_name": "left",
+            "predicate_id": 220003,
+            "subject_id": 10,
+            "object_id": 7
+        },
+        {
+            "predicate_name": "front",
+            "predicate_id": 220001,
+            "subject_id": 10,
+            "object_id": 8
+        },
+        {
+            "predicate_name": "upper",
+            "predicate_id": 220005,
+            "subject_id": 10,
+            "object_id": 9
+        },
+        {
+            "predicate_name": "stand",
+            "predicate_id": 210086,
+            "subject_id": 10,
+            "object_id": 9
+        }
+    ]
+}
